@@ -1,0 +1,72 @@
+/* CSS for the mav bar component */
+.my-navbar {
+    background-color: #ededed;
+    padding-right: 20px;
+    width: 100%;
+}
+.my-navbar a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+}
+
+.my-navbar a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+}
+
+.logo{
+    padding: 10px 10px 10px 10px;
+}
+
+.adjust{
+    padding-left: 20px;
+}
+
+.my-nav-list{
+    justify-content: end;
+    padding-right: 20px;  
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.sign {
+    margin: 0; 
+    padding-right: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sign:hover{
+    font-size: 20.5px;
+}
+
+.sign:hover{
+    font-size: 20.5px;
+}
+
+.adjust-user-size{
+    font-size: 23px;
+}
+
+#logo{
+    width: 180px;
+}
+
+@media (max-width: 576px) {
+    .sign{
+        font-size: 18px;
+    }
+    .sign:hover{
+        font-size: 18.5px;
+    }
+    .adjust-user-size{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,120 @@
+.content-container {
+    display: flex;
+    height: calc(100vh - 88px);
+    overflow: auto;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width:100%;
+    align-items: center;
+}
+#spacer{
+    margin-top:5vh;
+}
+
+#spacer2{
+    margin-top:3vh;
+}
+.shopping-cart{
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    padding: 1.8vh;
+    width: 90%;
+    display: block;
+    border-radius: 24px;
+    margin: 0;
+}
+.form-check-input {
+    position: static!important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+.courseCard{
+    width:50%;
+    height:50%;
+    border:1px solid black;
+}
+.shopping-cart {
+    width: 80%;
+
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.styled-table th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+#remove-button {
+    border-radius: 1vh;
+}
+.cart-ad{
+    margin-right: auto;
+}
+#checkout-button {
+    position: absolute;
+    width: 125px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer; 
+    align-self: end;
+    margin: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#checkout-button:hover {
+    background-color: #2cfbe6;
+}
+
+#checkout-button p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.card-body{
+    height: 100px;
+}
+.courses-c {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card-text{
+    max-height: 265px;
+    overflow-y: auto;
+}

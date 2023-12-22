@@ -1,0 +1,31 @@
+.student-container {
+    display: flex;
+    max-height: calc(100vh - 88px);
+    overflow: hidden;
+} 
+
+
+.student-table{
+    width: 100%;
+    padding: 20px; 
+    overflow: hidden;
+} 
+
+.action-edit:hover{
+    cursor: pointer;
+}
+
+#m-1:hover, #m-2:hover, #m-3:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.action-edit{
+    padding: 0px;
+    margin: 0px;
+    all:initial;
+}
+/* 
+.courseCard{
+    height: "72vh";
+    width: "23vw";
+} */

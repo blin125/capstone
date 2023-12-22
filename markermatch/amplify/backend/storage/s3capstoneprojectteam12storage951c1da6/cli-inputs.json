@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3capstoneprojectteam12storage951c1da6",
+  "bucketName": "capstone-project-team-12-storage-951c1da6",
+  "policyUUID": "fba8d0e8",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

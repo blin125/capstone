@@ -1,0 +1,53 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+}
+
+.previous-button,
+.next-button,
+.submit-button {
+  padding: 10px 20px;
+  background-color: grey;
+  color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.previous-button {
+  background-color: #ccc;
+}
+
+.next-button {
+  background-color: #007bff;
+  color: #fff;
+  float: right;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 88px);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  position: relative;
+  /* height: 100vh; */
+}
+
+.marker-form {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+}

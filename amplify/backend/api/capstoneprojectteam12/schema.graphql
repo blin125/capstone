@@ -1,0 +1,61 @@
+type ApplicationStatus @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: String
+  appliedCourses: String
+  hoursAssigned: String
+  status: String
+  hoursRequested: String
+}
+
+type Cart @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: String
+  selectedCourses: String
+}
+
+type Course @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  coordinatorName: String
+  coordinatorEmail: String
+  courseCode: String
+  yearSemester: String
+  faculty: String
+  preassignMarkers: Boolean
+  requireMarkers: Boolean
+  estimatedStudents: String
+  enrolledStudents: String
+  summary: String
+  minGrade: String
+  totalHours: String
+  appOpen: Boolean
+  description: String
+  directorName: String
+  directorEmail: String
+  name: String
+  thumbnailId: String
+  markersNeeded: Int
+  markersAssigned: Int
+}
+
+type MarkerApplication @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  givenName: String
+  familyName: String
+  upi: String
+  auid: String
+  preferredEmail: String
+  validNzWorkPermit: Boolean
+  degree: String
+  yearsOfStudy: String
+  underPostGrad: String
+  currentTutor: Boolean
+  maxHours: Int
+  transcriptId: String
+  cvId: String
+  userId: String
+  overseas: Boolean
+  courseSpecifics: String
+  preferredMarker: Boolean
+  bucketVal: String
+}
+ 

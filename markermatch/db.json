@@ -1,0 +1,20 @@
+{
+    "user": [
+      { "id": 1, "name": "Charles Oliveira" }
+    ],
+
+    "courses":[
+      { "id": 1, "courseName": "COMPSCI101", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Asma Shakil"},
+      { "id": 2, "courseName": "COMPSCI111G", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Random Teacher"},
+      { "id": 3, "courseName": "COMPSCI130", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Another teacher"},
+      { "id": 4, "courseName": "COMPSCI120", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Some Teacher"},
+      { "id": 5, "courseName": "COMPSCI220", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "David Welch"},
+      { "id": 6, "courseName": "COMPSCI110", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Paramvir Singh"},
+      { "id": 7, "courseName": "COMPSCI235", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Someone Name"},
+      { "id": 8, "courseName": "COMPSCI210", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Some dude"},
+      { "id": 9, "courseName": "COMPSCI225", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "David Welch"},
+      { "id": 10, "courseName": "COMPSCI335", "summary": "Lorem Ipsum whatever blah blah", "instructor" : "Mano Manoharan"}
+    ]
+}
+
+
