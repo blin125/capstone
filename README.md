@@ -38,14 +38,6 @@ Our team used various ways of communicating. One of the main methods of keeping 
 * AWS S3
 * AWS Cognito
 
-## Logins required to access project:
-Logins:
-* Marker coordinator<br>Email: jcol984@aucklanduni.ac.nz <br>Password: Test123!
-
-* Course coordinator<br>Email: mtom415@aucklanduni.ac.nz <br>Password: Test123!
-
-* Marker Applicants<br> Email: blin125@aucklanduni.ac.nz <br>Password: Test123! <br><br>Email: nwu939@aucklanduni.ac.nz <br> Password: Test321!<br>
-
 ## Setting Up
 
 * Clone repository to local machine
