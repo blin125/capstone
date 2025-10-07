@@ -1,7 +1,7 @@
 # MarkerMatch
 ![MarkerMatch Logo](./markermatch/src/images/logoExample.png)
 
-### Deployed at: https://markermatchcapstonelambda12.web.app/home 
+### Deployed at: https://markermatchcapstonelambda12.web.app/home (Please check out the video demo instead, as most of the features will be unavailable after some time)
 ### Video Demo at: https://www.capitalise.space/projects/6551d5901d6ecfc86aed2c25
 
 ## Team Members:
